@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+}
+header{
+  background-color: #1e1f26;
+  height: 65px;
+  
+}
+h1{
+  padding: 0;
+  text-align: center;
+  color: #997cce;
+  font-weight: 700;
+  font-size: 25px;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  font-family: sans-serif;
+  line-height: 35px;
+  justify-content: center;
+}
+.page-wrap{
+  display: flex;
+}
+.boxes{
+  width: 32%;
+}
+.prism-live{
+  height: 200px;
+  padding: 6;
+  overflow: hidden;
+}
+.coding-area{
+  background-color: #7614d0;
+}
+#code{
+  background-color: #f2f4f6;
+    width: 919px;
+    height: 595;
+}
+.code-output {
+  width: 923px;
+  border: none;
+}
+
+footer > div{
+  background-color: #1e1f26;
+    height: 36px;
+    padding: 0;
+    text-align: center;
+    color: #997cce;
+    font-weight: 300;
+    font-size: 14px;
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+    line-height: 35px;
+    justify-content: center;
+}

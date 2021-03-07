@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Live code editor a websites</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="prism/prism.css">
+<link rel="stylesheet" href="prism/prism-live.css">
+  </head>
+  <body>
+
+    <div id="coding-playground-outer">
+      <header>
+       <h1>Live Coding Playground</h1>\
+      </header>
+    </div>
+  <!-- The coding part -->
+
+<div class="page-wrap">
+  <div class="boxes">
+    <div class="coding-area">
+      <textarea placeholder="HTML" id="html" class="prism-live language-html"></textarea>
+      <textarea placeholder="CSS" id="css" class="prism-live language-css"></textarea>
+      <textarea placeholder="JS" id="js" class="prism-live language-js"></textarea>
+    </div>
+  </div>
+  <!-- The output part -->
+<div class="code-output">
+  <iframe id="code"></iframe>
+</div>
+</div>
+<footer>
+  <div >
+    made with love by @codingreat
+  </div>
+</footer>
+
+  <!-- needed for the javascript highlighting -->
+<script src="main.js"></script>
+<script src="prism/prism.js"></script>
+<script src="prism/prism-live.js"></script>
+  </body>
+</html>
