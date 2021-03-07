@@ -1,1 +1,2 @@
-# Live-code-editor
+# Live-web-based-code-editor
+using HTML CSS & JavaScript
