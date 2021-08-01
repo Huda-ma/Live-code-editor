@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Application</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src='index.js'></script>
+</head>
+<body>
+  <div class="box">
+    <h1>Undergraduate Application</h1>
+  <button>Save</button>
+</div>
+  <form action="">
+    
+  <div class="container1">
+    <div class="container1-div1">
+      <div class="div1">
+        <div> <strong> ID Number</strong> </div>
+      <Input class="IDNumber-input"></Input>
+      </div>
+      
+    <div class="div2">
+       <div> <strong>Date</strong></div>
+      <Input class="Date-input" 
+      ></Input>
+    </div>
+    <div class="div3">
+     <div> <strong> Year</strong> </div>
+      <Input class="Year-input"></Input>
+    </div>
+    </div>
+    <div class="container1-div2">
+      <div> <strong> Applying For</strong> </div>
+      <input type="checkbox" id="Fall" name="Fall" value="Fall" class="Semester">
+      <label for="Fall"> Fall</label><br>
+      <input type="checkbox" id="Spring" name="Spring" value="Spring" class="Semester">
+      <label for="Spring"> Spring</label><br>
+      <input type="checkbox" id="Summer" name="Summer" value="Summer" class="Semester">
+      <label for="Summer"> Summer</label><br><br>
+    </div>
+  </div>
+
+  <div class="container2">
+    <div class="container2-div1">
+      <div class="div2-1">
+        <div> <strong> Nationality</strong> </div>
+      <Input class="Nationality"></Input>
+      </div>
+      
+    <div class="div2-2">
+       <div> <strong>Second Nationality</strong></div>
+      <Input class="secondNationality"></Input>
+    </div>
+  </div>
+  <div class="container2-div2-1">
+    <div > <strong>Gender</strong></div>
+    <input type="checkbox" id="Male" name="Male" value="Male" class="Gender">
+    <label for="Male"> Male</label><br>
+    <input type="checkbox" id="Female" name="Female" value="Female" class="Gender">
+    <label for="Female"> Female</label><br>
+  </div>
+  </div>
+
+  <div class="container3">
+  <div class="container3-div1">
+
+    <div class="div1">
+    <div> <strong> Date Of Birth</strong> </div>
+    <Input class="Date-Of-Birth" type="date"></Input>
+    </div>
+
+    <div class="div2">
+    <div> <strong> Place Of Birth</strong> </div>
+    <Input class="City-Of-Birth" type="text" placeholder="City"></Input>
+    <Input class="Country-Of-Birth" type="text" placeholder="Country"></Input>
+    </div>
+
+  </div>
+  <div class="container2-div2">
+    <div > <strong> Marital Status</strong></div>
+    <input type="checkbox" id="Married" name="Married" value="Married" class="MaritalStatus">
+    <label for="Married"> Married</label><br>
+
+    <input type="checkbox" id="Single" name="Single" value="Single"  class="MaritalStatus">
+    <label for="Single"> Single</label><br>
+
+    <input type="checkbox" id="Divorced" name="Divorced" value="Divorced" class="MaritalStatus">
+    <label for="Divorced"> Divorced</label><br>
+    <input type="checkbox" id="Widow" name="Widow" value="Widow" class="MaritalStatus">
+    <label for="Widow"> Widow</label><br>
+</div>
+ 
+  </div>
+ 
+</form>
+
+<script>
+
+
+
+  $(document).ready(function(){
+    $(".Gender").click(function() {
+        $(".Gender").not(this).prop('checked', false);
+    });
+
+    $(".MaritalStatus").click(function() {
+        $(".MaritalStatus").not(this).prop('checked', false);
+    });
+    
+    $(".Semester").click(function() {
+        $(".Semester").not(this).prop('checked', false);
+    });
+    
+});
+
+
+
+</script>
+
+</body>
+</html>

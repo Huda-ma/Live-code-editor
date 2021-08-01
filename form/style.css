@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+}
+
+.box {
+  position: relative;
+  top: -22px;
+  display: flex;
+  height: 106px;
+  border-bottom: 1px solid #8080804f;
+  background-color: #fefaef;
+}
+.box button {
+ margin-right: 3%;
+
+}
+
+.box h1 {
+  font-size: 17px;
+  padding-left: 4%;
+  padding-top: 43px;
+  margin-right: 5%;
+  color: #111111;
+}
+
+.box button {
+  background-color: #f98a2d;
+  color: white;
+  font-size: 21px;
+  width: 118px;
+  height: 60px;
+  border: none;
+  border-radius: 5%;
+  position: relative;
+  top: 35px;
+}
+.container1 {
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 92%;
+  display: inline-flex;
+  margin-bottom: 5%;
+}
+
+
+
+.div1 {
+  margin-bottom: 8%;
+}
+.div2 {
+  margin-bottom: 7%;
+}
+.div3 {
+  margin-bottom: 6%;
+}
+
+.div1  div{
+  margin-bottom: 3%;
+  font-size: 16px;
+}
+.div2  div{
+  margin-bottom: 4%;
+  font-size: 16px;
+}
+.div3 div {
+  margin-bottom: 2%;
+  font-size: 16px;
+}
+
+.IDNumber-input {
+  width: 80%;
+}
+
+.Date-input {
+  width: 80%;
+}
+
+.Year-input {
+  width: 80%;
+}
+
+.container1-div2 div {
+  margin-bottom: 9%;
+}
+.container1-div1  {
+  width: 52%;
+}
+
+.container2 {
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 92%;
+  display: inline-flex;
+  margin-bottom: 9%;
+}
+
+.container2-div1 {
+  position: relative;
+  width: 52%;
+}
+.container3 {
+  padding-left: 4%;
+  padding-right: 4%;
+  width: 92%;
+  display: inline-flex;
+  margin-bottom: 7%;
+}
+
+.container3-div1 {
+  position: relative;
+  width: 52%;
+}
+
+
+.Date-Of-Birth {
+  width: 80%;
+}
+
+.City-Of-Birth  {
+  width: 80%;
+  margin-bottom: 9%;
+}
+
+.Country-Of-Birth  {
+  width: 80%;
+  margin-bottom: 8%;
+}
+
+.Nationality{
+  width: 80%;
+}
+
+.secondNationality{
+  width: 80%;
+}
+.div2-1 {
+  margin-bottom: 5%;
+}
+
+.div2-1 div{
+  margin-bottom: 3%;
+}
+
+.div2-2 div{
+  margin-bottom: 4%;
+}
+
+
